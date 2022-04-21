@@ -23,6 +23,5 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           commit-message: "[automated] Update auto-generated files"
-          title: "[automated] Update auto-generated files"
           delete-branch: true
           token: ${{ secrets.GITHUB_TOKEN }}
